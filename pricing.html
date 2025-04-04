@@ -10,8 +10,10 @@
       font-family: 'Courier New', monospace;
       background-color: #0a0a0a;
       color: white;
-      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
-      background-repeat: repeat;
+      background-image: url('black-motion-background.png');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
     }
     header {
       text-align: center;
@@ -30,6 +32,14 @@
     .service-list {
       list-style: square;
       margin-left: 1.5rem;
+    }
+    .service-list li {
+      margin-bottom: 1.5rem;
+    }
+    .service-list span {
+      display: block;
+      margin-top: 0.3rem;
+      opacity: 0.8;
     }
     nav {
       text-align: center;
@@ -51,7 +61,6 @@
   </style>
 </head>
 <body>
-
   <nav>
     <a href="index.html">Home</a>
     <a href="pricing.html">Pricing</a>
@@ -63,21 +72,47 @@
 
   <section>
     <ul class="service-list">
-      <li><strong>Product Sourcing:</strong> $250 flat per new product + 10% of manufacturing order</li>
-      <li><strong>Logo Design:</strong> $250 standard (2 concepts + 2 revisions)</li>
-      <li><strong>Premium Logo Design:</strong> $400 (Live editing session, unlimited revisions)</li>
-      <li><strong>Graphic Design:</strong> $125 per design</li>
-      <li><strong>Tech Packs:</strong> $200 per product</li>
-      <li><strong>Consultation:</strong> $125/hour after free intro call</li>
-      <li><strong>Shopify Setup:</strong> $350 per store</li>
-      <li><strong>Storage:</strong> Starting at $100/month (3 SKUs)</li>
-      <li><strong>Fulfillment:</strong> $3–$6 per order + shipping cost</li>
+      <li>
+        <strong>Product Sourcing:</strong> $250 flat per new product + 10% of manufacturing order
+        <span>We find reliable factories and handle supplier communication for your custom product.</span>
+      </li>
+      <li>
+        <strong>Logo Design:</strong> $250 standard (2 concepts + 2 revisions)
+        <span>Clean, professional logo design for brand recognition.</span>
+      </li>
+      <li>
+        <strong>Premium Logo Design:</strong> $400 live editing
+        <span>Real-time collaboration with unlimited revisions during the session.</span>
+      </li>
+      <li>
+        <strong>Graphic Design:</strong> $125 per design
+        <span>Print-ready designs for apparel, accessories, and marketing.</span>
+      </li>
+      <li>
+        <strong>Tech Packs:</strong> $200 per product
+        <span>Detailed manufacturing blueprints with measurements and material specs.</span>
+      </li>
+      <li>
+        <strong>Consultation:</strong> $125/hour
+        <span>Expert advice on product sourcing, branding, and operations.</span>
+      </li>
+      <li>
+        <strong>Shopify Setup:</strong> $350
+        <span>Custom-built storefront ready for online sales.</span>
+      </li>
+      <li>
+        <strong>Storage:</strong> Starting at $100/month (3 SKUs)
+        <span>Secure domestic storage for your product inventory.</span>
+      </li>
+      <li>
+        <strong>Fulfillment:</strong> $3–$6 per order + shipping
+        <span>We handle packaging and shipping your products to customers.</span>
+      </li>
     </ul>
   </section>
 
   <footer>
     &copy; 2025 Motion Designs & Manufacturing Co. All rights reserved.
   </footer>
-
 </body>
 </html>
