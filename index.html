@@ -60,18 +60,37 @@
       color: #888;
       padding: 2rem 1rem;
     }
+    nav {
+      text-align: center;
+      background: #111;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <header>
     <img src="Motion Profile Picture Final 1.png" alt="Motion Logo" />
     <h1>Product Sourcing, Design & Fulfillment</h1>
+    <p>At Motion Designs & Manufacturing, we help brands launch with confidence. From sourcing reliable manufacturers to developing premium graphic designs, we guide your vision from concept to shipment. Whether you’re building a streetwear label or launching a custom product, our expert-backed approach ensures quality, speed, and authenticity.</p>
     <div class="cta">
       <a href="#booking">Book Free Consultation</a>
     </div>
   </header>
 
-  <section>
+  <section id="services">
     <h2>Our Services</h2>
     <ul class="service-list">
       <li>Product Sourcing ($250 flat + 10% of order)</li>
@@ -79,6 +98,21 @@
       <li>Apparel Graphic Design & Tech Packs</li>
       <li>Shopify Store Setups</li>
       <li>Product Storage & Order Fulfillment</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <ul class="service-list">
+      <li><strong>Product Sourcing:</strong> $250 flat per new product + 10% of manufacturing order</li>
+      <li><strong>Logo Design:</strong> $250 standard (2 concepts + 2 revisions)</li>
+      <li><strong>Premium Logo Design:</strong> $400 (Live editing session, unlimited revisions)</li>
+      <li><strong>Graphic Design:</strong> $125 per design</li>
+      <li><strong>Tech Packs:</strong> $200 per product</li>
+      <li><strong>Consultation:</strong> $125/hour after free intro call</li>
+      <li><strong>Shopify Setup:</strong> $350 per store</li>
+      <li><strong>Storage:</strong> Starting at $100/month (3 SKUs)</li>
+      <li><strong>Fulfillment:</strong> $3–$6 per order + shipping cost</li>
     </ul>
   </section>
 
@@ -93,7 +127,7 @@
     <p>We help emerging streetwear and product-based brands design, source, and fulfill their products with expert insight and creative direction. Our graffiti-inspired identity blends premium service with real creative edge.</p>
   </section>
 
-  <section>
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: yourname@email.com</p>
     <p>Discord: @yourdiscord</p>
